@@ -2,9 +2,9 @@ price=1000000
 good_credit=True
 High_salary= False
 
-if good_credit or High_salary:
-
-    down_payment= 0.1*float(price)
+if price>100000:
+    print('amount is too big ')
+    down_payment= price*0.1
 elif good_credit and High_salary:
     down_payment = 0.05 * float(price)
 else:
