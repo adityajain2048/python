@@ -1,5 +1,3 @@
-hot_day = False
-
-if hot_day:
-    print("Plenty of water")
-print( "i lo c")
+import math
+print(math.ceil(2.9))
+print(math.floor(2.2))
