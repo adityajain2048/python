@@ -1,13 +1,7 @@
-price=1000000
-good_credit=True
-High_salary= False
-
-if price>100000:
-    print('amount is too big ')
-    down_payment= price*0.1
-elif good_credit and High_salary:
-    down_payment = 0.05 * float(price)
+name = input('Enter your name  ')
+if len(name)<3:
+    print('Name is too small')
+elif len(name)>50:
+    print('name is too big ')
 else:
-    down_payment= 0.2*float(price)
-
-print(f'{down_payment} is the amount of downpayment')
+    print("Name is okay")
